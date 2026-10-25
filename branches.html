@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A short introduction to Git branches and a safe branch workflow.">
+  <title>Git Branches | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="hero">
+    <nav aria-label="Main navigation">
+      <a class="brand" href="index.html">Student Portfolio</a>
+      <div class="nav-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="events.html">Workshop activities</a>
+      </div>
+    </nav>
+    <section class="hero-content">
+      <p class="eyebrow">Git and GitHub workshop</p>
+      <h1>Working with <span>branches</span></h1>
+      <p class="intro">A branch gives a line of work its own name, so changes can be developed and reviewed without immediately changing the default branch.</p>
+    </section>
+  </header>
+
+  <main id="main-content" class="container">
+    <section class="panel">
+      <h2>What a branch does</h2>
+      <p>Git branches are movable references to commits. A developer can create a branch, make commits on it, and later merge those commits into another branch such as <code>main</code>.</p>
+      <p>Branches make it easier to isolate a feature, experiment, or fix. They do not create a separate copy of the entire project history.</p>
+    </section>
+    <section class="panel">
+      <h2>Useful commands</h2>
+      <ul>
+        <li><code>git branch</code> lists local branches.</li>
+        <li><code>git switch -c feature-name</code> creates and switches to a branch.</li>
+        <li><code>git switch main</code> switches to an existing branch.</li>
+        <li><code>git merge feature-name</code> merges that branch into the current branch.</li>
+        <li><code>git branch -d feature-name</code> deletes a branch after its work is merged.</li>
+      </ul>
+    </section>
+    <section class="panel">
+      <h2>A simple workflow</h2>
+      <ol>
+        <li>Create a focused branch from the branch you intend to update.</li>
+        <li>Make a small, meaningful change and commit it.</li>
+        <li>Push the branch and review the changes.</li>
+        <li>Merge locally or open a pull request for review.</li>
+      </ol>
+      <p><a href="index.html">Return to the portfolio</a></p>
+    </section>
+  </main>
+  <footer><p>Student Portfolio Git practice project</p></footer>
+</body>
+</html>
