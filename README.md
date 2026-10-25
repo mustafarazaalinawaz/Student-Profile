@@ -50,4 +50,4 @@ Do not include passwords, access tokens, API keys, home addresses, or other sens
 
 ## Author
 
-[Sashank Reddy Sathi](https://github.com/Sashank096)
+[Mustafa_Raza_Ali_Nawaz] [https://github.com/mustafarazaalinawaz/Student-Profile/edit/main/README.md]
